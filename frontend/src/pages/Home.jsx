@@ -15,7 +15,7 @@ const Home = () => {
       <Box
         sx={{
           backgroundColor: 'rgba(10, 10, 10, 1)',
-          height: '100vh',
+          height: '100%',
           //width: '100vw',
           position: 'relative',
           top: 0,
