@@ -13,18 +13,20 @@ const Home = () => {
     <>
       <CssBaseline />
       <Box
-        sx={{
-          backgroundColor: 'rgba(10, 10, 10, 1)',
-          height: '100%',
-          //width: '100vw',
-          position: 'relative',
-          top: 0,
-          left: 0,
-          margin: 0,
-          padding: 0,
-          pt: 6,
-        }}
-      >
+  sx={{
+    backgroundColor: 'rgba(10, 10, 10, 1)',
+    height: '100dvh', 
+    display: 'flex', 
+    flexDirection: 'column', 
+    position: 'relative',
+    top: 0,
+    left: 0,
+    margin: 0,
+    padding: 0,
+    pt: 6,
+  }}
+>
+
         <Typography
           sx={{
             typography: { xs: 'h5', md: 'h4' },
