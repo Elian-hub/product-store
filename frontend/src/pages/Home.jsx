@@ -15,7 +15,7 @@ const Home = () => {
       <Box
   sx={{
     backgroundColor: 'rgba(10, 10, 10, 1)',
-    height: '100dvh', 
+    minHeight: '100dvh', 
     display: 'flex', 
     flexDirection: 'column', 
     position: 'relative',
