@@ -15,8 +15,9 @@ const Home = () => {
       <Box
         sx={{
           backgroundColor: 'rgba(10, 10, 10, 1)',
-          height: '100%',
-          //width: '100vw',
+          minHeight: '100dvh',
+          display: 'flex',
+          flexDirection: 'column',
           position: 'relative',
           top: 0,
           left: 0,
@@ -36,7 +37,6 @@ const Home = () => {
         >
           Current Products
         </Typography>
-
         <Grid2
           container
           spacing={4}
@@ -50,7 +50,6 @@ const Home = () => {
           ))}
           ;
         </Grid2>
-
         {products?.length === 0 && (
           <Typography variant='h6' color='white' textAlign='center' mt={6}>
             No products?{''}
