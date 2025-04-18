@@ -4,9 +4,11 @@ import './App.css';
 import Home from './pages/Home';
 import CreatePage from './pages/CreatePage';
 import Navbar from './components/Navbar';
+//import { ThemeProvider } from '../context/ThemeProvider';
 
 function App() {
   return (
+    // <ThemeProvider>
     <Box>
       <Navbar />
       <Routes>
@@ -14,6 +16,7 @@ function App() {
         <Route path='/create' element={<CreatePage />}></Route>
       </Routes>
     </Box>
+    // </ThemeProvider>
   );
 }
 
